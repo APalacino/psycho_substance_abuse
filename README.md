@@ -35,14 +35,19 @@ First, an initial profiling of both data sets is performed with the ydata-profil
 ## Getting Started
 
 1. Clone this repo (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/)).
+
 2. Raw Data is being kept [data/raw](https://github.com/APalacino/psycho_substance_abuse/tree/develop/data/raw) within this repo.
     
 3. Data processing/transformation scripts are being kept [notebooks](https://github.com/APalacino/psycho_substance_abuse/tree/develop/notebooks)
 
 4. Reports generated during data analysis are being kept [reports](https://github.com/APalacino/psycho_substance_abuse/tree/develop/reports)
 
-## Featured Notebooks/Analysis/Deliverables
-* [Notebook/Markdown/Slide DeckTitle](link)
+## Results
+
+Cases of drug abuse in localities across Bogotá are highly dependent on the location of the locality when taking int acount the cases per habitants, therefore the graphs are presented as a percenage of cases per age group. The first four localities with most cases are located in an axe in the center of the city, and they present more cases in the youth. Specially La Candelaria which has almost 10 percentage points above the following age groups, like adolescence and adulthood. To reduce these cases there should be efforts directed at the adolescence age group to prevent further problematic abuse of psychoactive substances, a behaviour observed in Tunjuelito (the fifth locality). Additionally, it is seen that fortunately there are very few cases in the first infancy. We can also see that in the elderly the first three localities (Mártires, Candelaria and Santa Fe) have a percentage of cases above 1% that is not seen in the other localities. These graphs show there might be an association between the locality and age groups when it comes to drug abuse.
+
+![Bar plot](reports/Barplot_per_locality.png)
+![Heatmap](reports/Heatmap_per_locality.png)
 
 ## Contact
 e-mail: appalacinoc@gmail.com
